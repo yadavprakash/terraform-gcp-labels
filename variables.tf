@@ -14,7 +14,7 @@ variable "environment" {
 
 variable "repository" {
   type        = string
-  default     =
+  default     = ""
   description = "Terraform current module repo"
 }
 
@@ -38,8 +38,7 @@ variable "extra_tags" {
 
 variable "managedby" {
   type        = string
-  default     =
-  description =
+  default     = ""
 }
 
 variable "enabled" {

@@ -7,6 +7,5 @@ module "labels" {
   label_order = ["name", "environment"]
   attributes  = ["private"]
   extra_tags = {
-    Application =
   }
 }
