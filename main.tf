@@ -20,7 +20,7 @@ locals {
   environment = var.enabled == true ? lower(format("%v", var.environment)) : ""
   managedby   = var.enabled == true ? lower(format("%v", var.managedby)) : ""
   repository  = var.enabled == true ? lower(format("%v", var.repository)) : ""
-  attributes = var.enabled == true ? lower(format("%v", join(var.delimiter, compact(var.attributes)))) : ""
+  attributes  = var.enabled == true ? lower(format("%v", join(var.delimiter, compact(var.attributes)))) : ""
 
   tags_context = {
     # For google we need `Name` to be disambiguated sine it has a special meaning
