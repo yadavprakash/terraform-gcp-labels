@@ -17,7 +17,7 @@ This Terraform module creates structured labels for GCP resources with specific 
 
 ```hcl
 module "labels" {
-  source = "git::https://github.com/opsstation/terraform-gcp-labels.git"
+  source = "git::https://github.com/opsstation/terraform-gcp-labels.git?ref=v1.0.0"
 
   name        = "labels"
   environment = "test"
