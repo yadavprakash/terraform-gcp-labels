@@ -37,8 +37,8 @@ variable "extra_tags" {
 }
 
 variable "managedby" {
-  type        = string
-  default     = ""
+  type    = string
+  default = ""
 }
 
 variable "enabled" {
