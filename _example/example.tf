@@ -7,3 +7,4 @@ module "labels" {
   extra_tags = {
   }
 }
+
